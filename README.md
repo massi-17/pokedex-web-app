@@ -14,7 +14,7 @@ The Pokédex Web App from the Italian Frontenders community and it is a comprehe
 <a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="75" /></a>  
 </div>
 ## Demo
-To see a live demo of the Pokedex web App, visit [Demo](https://www.massidev.com/portfolio/pokedex/).
+To see a live demo of the Pokedex web App, visit [Demo](https://www.massidev.com/portfolio/pokedex-web-app/).
 ## Installation
 To run the Pokedex web app locally, follow these steps:
 1. Clone the repository: `git clone https://github.com/massi-17/pokedex-web-app.git`
