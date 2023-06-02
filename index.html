@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css"
+        integrity="sha512-xiunq9hpKsIcz42zt0o2vCo34xV0j6Ny8hgEylN3XBglZDtTZ2nwnqF/Z/TTCc18sGdvCjbFInNd++6q3J0N6g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="wrapper">
+        <h2>Cerca un pokemon</h2>
+        <form id="form">
+            <input type="search" id="search" name="name" placeholder="e.g. bulbasaur" />
+            <button id="search-btn">cerca</button>
+        </form>
+        <h3>Ecco I tuoi risultati per [<span id="searched-name"></span>]</h3>
+        <div id="info-results">
+            <div class="name">Nome: <span id="name"></span></div>
+            <div class="weight">Peso: <span id="weight"></span></div>
+            <div class="height">Altezza: <span id="height"></span></div>
+        </div>
+        <div id="results-wrapper">
+            <div id="avatar">
+                <img src="" id="defaultCA" />
+            </div>
+            <div id="versions">
+                <button class="button-outline" id="default">default</button>
+                <button class="button-outline" id="shiny">shiny</button>
+            </div>
+            <div id="stats">
+                <h4>Statistiche</h4>
+                <p>hp</p>
+                <div class="bar">
+                    <div class="blu-bar" id="hp"></div>
+                </div>
+                <p>attack</p>
+                <div class="bar">
+                    <div class="blu-bar" id="attack"></div>
+                </div>
+                <p>defense</p>
+                <div class="bar">
+                    <div class="blu-bar" id="defense"></div>
+                </div>
+                <p>special-attack</p>
+                <div class="bar">
+                    <div class="blu-bar" id="special-attack"></div>
+                </div>
+                <p>special-defense</p>
+                <div class="bar">
+                    <div class="blu-bar" id="special-defense"></div>
+                </div>
+                <p>speed</p>
+                <div class="bar">
+                    <div class="blu-bar" id="speed"></div>
+                </div>
+            </div>
+        </div>
+        <button id="add-pokedex">aggiungilo al pokedex</button>
+        <h3>Il tuo Pokedex</h3>
+        <div id="team-wrapper"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+}
+#wrapper {
+    margin: 20px 30px;
+}
+#info-results {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid whitesmoke;
+    margin-bottom: 10px;
+}
+.height {
+    margin-bottom: 30px;
+}
+#results-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#avatar img {
+    width: 350px;
+}
+#versions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px;
+}
+#stats {
+    display: flex;
+    flex-direction: column;
+}
+#stats>h4 {
+    margin-bottom: 5px;
+}
+#stats>p {
+    font-weight: bold;
+    margin: 10px 0;
+}
+#stats>.bar {
+    min-width: 150px;
+    background-color: #eeeeee;
+    height: 7px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.blu-bar {
+    background-color: #0174fe;
+    height: inherit;
+}
+#hp,
+#attack,
+#defense,
+#special-attack,
+#special-defense,
+#speed {
+    width: 0%;
+}
+#add-pokedex {
+    margin-bottom: 20px;
+}
+#team-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#pokemon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% / 5);
+}
+#pokemon-team-img {
+    width: 40%;
+    margin-bottom: 20px;
+}
+@media(max-width: 650px) {
+  #versions {
+    display: none;
+  }
+}
